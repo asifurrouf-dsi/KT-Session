@@ -1,3 +1,3 @@
-# KT-Session Training Materials Will be found at this repository
+# KT-Session Materials 
 
-KT Sessions at DSI
+KT-Session Training Materials Will be found at this repository
