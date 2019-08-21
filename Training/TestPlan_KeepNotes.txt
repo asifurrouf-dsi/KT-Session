@@ -1,0 +1,49 @@
+Product Details: 
+Google keep notes application is build for andriod users in mind.
+ It is used for keeping notes and checklist to track user to do list/ shop[ping list and set reminder to remind the listed tasks later. 
+User can create a list and then they can title the list and set different functionalities such as checkbox, label, color code, set reminder etc. to keep necessary track of the list and make those more convinent. Mainly the application is tested on samsung A3 device, model: SM-A305F/DS.
+
+Test Strategy :
+2.1 Test Scope: In scope: 
+Functional Testing:
+ We will be focusing on testing basic software functionalities of google keep notes such as searching, create notes, give titles of the notes, label the task, create checklist etc.
+
+Conducting smoke/ sanity tests: 
+Basic and critical functionalities of the application should be conducted in smoke or sanity testing. 
+
+Regression Testing 
+
+Exploratory Testing
+
+Out side of scope: 
+Things which would be outside the scope is hardware testing , Performance testing etc. 
+
+Basic functionalities : 
+
+1)Create a note
+2) Keep Reminder
+3)Create Label
+4) Mark Task as label
+5) Archive notes
+6) Delete notes
+7) Create checkboxes
+8)Unceck checkboxes 
+Search notes : 
+1) By reminders
+2) List 
+3) By Labels 
+4) By things
+5) By colors 
+
+
+
+
+
+
+
+
+
+
+
+
+  
