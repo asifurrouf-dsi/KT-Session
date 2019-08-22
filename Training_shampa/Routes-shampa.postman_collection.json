@@ -27,9 +27,23 @@
 		},
 		{
 			"name": "Posts/1",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
 			"request": {
 				"method": "GET",
-				"header": [],
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
 				"url": {
 					"raw": "https://jsonplaceholder.typicode.com/posts/1",
 					"protocol": "https",
@@ -49,7 +63,7 @@
 		{
 			"name": "Post Value",
 			"request": {
-				"method": "PUT",
+				"method": "POST",
 				"header": [
 					{
 						"key": "Content-Type",
@@ -63,7 +77,7 @@
 					"raw": "{\r\n  \"userId\": 1,\r\n  \"id\": 150,\r\n  \"Name\": \"Shahria Alam Shampa\",\r\n  \"body\": \"Creating a new collection\"\r\n}"
 				},
 				"url": {
-					"raw": "https://jsonplaceholder.typicode.com/posts/150",
+					"raw": "https://jsonplaceholder.typicode.com/posts",
 					"protocol": "https",
 					"host": [
 						"jsonplaceholder",
@@ -71,8 +85,7 @@
 						"com"
 					],
 					"path": [
-						"posts",
-						"150"
+						"posts"
 					]
 				}
 			},
@@ -81,10 +94,30 @@
 		{
 			"name": "Update Value",
 			"request": {
-				"method": "GET",
-				"header": [],
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"userId\": 1,\r\n  \"id\": 150,\r\n  \"Name\": \"Shahria Alam Shampa\",\r\n  \"body\": \"Modifing the collection\"\r\n}"
+				},
 				"url": {
-					"raw": ""
+					"raw": "https://jsonplaceholder.typicode.com/posts",
+					"protocol": "https",
+					"host": [
+						"jsonplaceholder",
+						"typicode",
+						"com"
+					],
+					"path": [
+						"posts"
+					]
 				}
 			},
 			"response": []
